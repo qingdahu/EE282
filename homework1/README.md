@@ -26,6 +26,32 @@ The file 'test' is under ~/upper_folder/rename_again
 
 ## Question 2
 
+Make an example matrix and use built in example dataframe:
+
+```R
+myvector <- 101:112
+mymatrix <- matrix(myvector, ncol = 3)
+
+mydf <- head(mtcars) 
+```
+
+Access the second column of the matrix and the dataframe. Are there different ways to do the same thing? 
+
+```R
+mymatrix[,2]
+mydf[,2]
+mydf[[2]]  # or you can use
+mydf[2] # or you can use if you want the headers
+```
+
+Access the second value of the second column directly from the original matrix or dataframe.  Are there different ways to do the same thing? 
+
+```R
+mymatrix[6]
+mymatrix[2,2] # alternative
+mydf[2,2]
+```
+
 ## Question 3
 
 
