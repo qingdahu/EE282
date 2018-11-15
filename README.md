@@ -4,5 +4,6 @@ For class
 This is a README file that is in markdown.
 
 
-testing this
-fesffefi
+Homework2 is in the homework2 folder
+
+
