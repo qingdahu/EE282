@@ -1,4 +1,4 @@
-Homwork 2
+Homework 2
 =======
 Monday, October 15, 2018
 
@@ -23,6 +23,10 @@ rmdir -p upper_folder/renamed_again/where_is_this_folder
 ```
 
 The file 'test' is under ~/upper_folder/rename_again
+
+### Question 1 Comments:
+Hi, this was very well done, just one thing to caution is that if your directories contain any files the rmdir operation will fail. If that is the case you can simply do rm -rf upper_folder, the -f switch forces the delete without posting prompts. I would be just careful with using the -f option along with wildcards i.e. * as this can lead to wiping out everything in your working directory. 
+Also if you wanted test to be in your directory you should have done touch ~/upper_folder/renamed_again/test
 
 ## Question 2
 
