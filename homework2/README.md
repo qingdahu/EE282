@@ -52,6 +52,10 @@ mymatrix[2,2] # alternative
 mydf[2,2]
 ```
 
+### Question 2 Comments:
+
+Good job. It's worth pointing out that matrices can only be accessed with the ```[,_number_]``` syntax.
+
 ## Question 3
 
 
