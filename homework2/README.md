@@ -52,6 +52,10 @@ mymatrix[2,2] # alternative
 mydf[2,2]
 ```
 
+### Question 2 Comments:
+
+Good job. It's worth pointing out that matrices can only be accessed with the ```[,_number_]``` syntax.
+
 ## Question 3
 
 
@@ -76,3 +80,7 @@ chmod 555 mytest
 ```
 
 This might depend on if your classmate is in the same group as you are. Also if you do the chmod at the end the permission just have to be 050 for someone else in your group to run the script. 
+
+### Question 3 Comments:
+
+Good job.
